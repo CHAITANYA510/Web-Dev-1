@@ -1,0 +1,9 @@
+
+Important module: Intermediate CSS
+
+Important difference between inline, block and inline-block:
+https://wipro.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/12287744#overview
+
+Important on positioning - Fixed, Absolute, Relative, Static:
+https://wipro.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/12287766#overview
+
