@@ -25,5 +25,9 @@ DOM visualtization - Very Imp****
 https://wipro.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/12374120#overview
 
 
+Advanced DOM and JS ==> Chpt 13 ** Very Important
+
+Understanding Callbacks and How to respond** very Imp Lecture
+
 
 
