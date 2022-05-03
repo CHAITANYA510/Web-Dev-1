@@ -7,3 +7,23 @@ https://wipro.udemy.com/course/the-complete-web-development-bootcamp/learn/lectu
 Important on positioning - Fixed, Absolute, Relative, Static:
 https://wipro.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/12287766#overview
 
+=== v/s ===
+https://wipro.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/12373978#overview
+
+var n1=1; var n2="1";
+print(n1==n2); ---> True
+print(n1===n2); ---> False
+
+Collection in JS
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+listArr.includes("totest");
+push() -> Add at end of array
+pop() -> Remove from the end of array
+
+
+DOM visualtization - Very Imp****
+https://wipro.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/12374120#overview
+
+
+
+
