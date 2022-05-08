@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+  </head>
+  <body>
+    <form action="/getCityWeather" method="post">
+      <input type="text" name="city" placeholder="Enter City Name" required>
+      <br>
+      <input type="radio" name="unit" value="metric" required>Celcius
+      <input type="radio" name="unit" value="imperial" required>Fahrenheit
+      <br>
+      <button type="submit" name="submit">Get Live Weather</button>
+    </form>
+  </body>
+</html>
