@@ -7,7 +7,11 @@ const bodyParser = require("body-parser");
 
 //declarations
 const app = express();
-const port = 3000;
+//const port = process.env.PORT;
+//const port = 3000;
+
+//To access to project
+//https://evening-ocean-79038.herokuapp.com/
 
 //To make public folder available while hosting
 app.use(express.static("public"));
@@ -18,8 +22,9 @@ app.use(bodyParser.urlencoded({
 
 //now use app.<> to access express libraries
 //to start Server
-app.listen(port, () => {
-  console.log("App listening on port " + port);
+app.listen(process.env.PORT || 3000, () => {
+  console.log("Application is up and running!!");
+  //console.log("Application is up and running on port " + port);
 });
 
 //api sepecific details
@@ -31,6 +36,10 @@ const apiKey = 'cee465601b1cbeac9625edb2065d8373-us18';
 app.get("/", function(req, res) {
   //.send("Server is up and running!!");
   res.sendFile(__dirname + "/signup.html");
+});
+
+app.post("/failure", function(req, res) {
+  res.redirect("/");
 });
 
 //Issue => On adding same email ID => not getting error code
@@ -75,10 +84,10 @@ app.post("/signup", function(req, res) {
     console.log(response.statusCode);
 
     if(response.statusCode === 200) {
-      res.send("Success");
+      res.sendFile(__dirname+"/success.html");
     }
     else {
-      res.send("Failed");
+      res.sendFile(__dirname+"/failure.html");
     }
   });
 
