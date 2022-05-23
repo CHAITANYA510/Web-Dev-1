@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>To Do List</title>
+  </head>
+  <body>
+      <div>
+        <% if(todayDay==='Saturday' || todayDay==='Sunday'){ %>
+          <h1 style='color: green'>Today's Day is <%= todayDay %></h1>
+        <% } else { %>
+          <h1 style='color: red'>Today's Day is <%= todayDay %></h1>
+        <% } %>
+        <p>You have successfully accessed index.ejs page</p>
+      </div>
+  </body>
+</html>

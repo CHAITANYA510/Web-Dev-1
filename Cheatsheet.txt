@@ -32,5 +32,3 @@ Understanding Callbacks and How to respond** very Imp Lecture
 https://evening-ocean-79038.herokuapp.com/
 https://git.heroku.com/evening-ocean-79038.git
 
-
-
